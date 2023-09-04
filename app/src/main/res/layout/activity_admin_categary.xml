@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminCategary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Item"
+        android:textColor="#03A9F4"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="2">
+
+
+        <ImageView
+            android:id="@+id/bages"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/purses_bags" />
+
+        <ImageView
+            android:id="@+id/watches"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/watches" />
+
+        <ImageView
+            android:id="@+id/laptops"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/laptops" />
+
+        <ImageView
+            android:id="@+id/mobiles"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/mobiles" />
+
+        <ImageView
+            android:id="@+id/cctv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/select_product_image" />
+
+        <ImageView
+            android:id="@+id/shoess"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/shoess" />
+
+        <ImageView
+            android:id="@+id/sport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sports" />
+
+        <ImageView
+            android:id="@+id/sweather"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sweather" />
+
+        <ImageView
+            android:id="@+id/tshirts"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/tshirts" />
+
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Adminhomepage">
+    <ImageView
+        android:id="@+id/pimg"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:paddingVertical="10px"
+        android:src="@drawable/select_product_image" />
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Admin"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/itemname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="product name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="product price"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="product Description"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="20dp" />
+
+
+    <Button
+        android:id="@+id/logoutadmin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:text="Add product"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+</LinearLayout>
