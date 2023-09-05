@@ -49,16 +49,16 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 String Email = email.getText().toString();
                 String Password = password.getText().toString();
-                if (TextUtils.isEmpty(Email)) {
-
-                    Toast.makeText(login.this, "please enter your email", Toast.LENGTH_SHORT).show();
-
-                } else if (TextUtils.isEmpty(Password)) {
-
-
-                    Toast.makeText(login.this, "please enter your password", Toast.LENGTH_SHORT).show();
-
-                } else {
+//                if (TextUtils.isEmpty(Email)) {
+//
+//                    Toast.makeText(login.this, "please enter your email", Toast.LENGTH_SHORT).show();
+//
+//                } else if (TextUtils.isEmpty(Password)) {
+//
+//
+//                    Toast.makeText(login.this, "please enter your password", Toast.LENGTH_SHORT).show();
+//
+//                } else {
 
                     if (admin.isChecked()) {
 //                        mAuth.signInWithEmailAndPassword(Email, Password)
@@ -113,7 +113,7 @@ public class login extends AppCompatActivity {
                 }
 
 
-            }
+//            }
         });
     }
 }
