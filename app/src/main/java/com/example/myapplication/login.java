@@ -100,7 +100,7 @@ public class login extends AppCompatActivity {
 
                         Intent intent = new Intent(login.this, homeActivity.class);
                                             startActivity(intent); }
-                    else {
+//                    else {
 
 //                        Toast.makeText(login.this, "please Check the box", Toast.LENGTH_SHORT).show();
 
@@ -110,7 +110,7 @@ public class login extends AppCompatActivity {
 
                     }
 
-                }
+//                }
 
 
 //            }
